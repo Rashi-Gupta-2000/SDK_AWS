@@ -3,8 +3,8 @@ import boto3
 #Function for connecting to EC2 
 ec2 = boto3.client('ec2',
                     'us-east-1',
-                    aws_access_key_id='',
-                    aws_secret_access_key='')  # enter access key details
+                    aws_access_key_id='AKIA4DWVZTGTXUUKFG4I',
+                    aws_secret_access_key='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')  # enter access key details
 
 def create_instances(image_id,mincount,maxcount,instance_type):
     #Function for running instances 
