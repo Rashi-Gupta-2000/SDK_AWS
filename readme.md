@@ -5,4 +5,4 @@ Then make the python files using boto
 and use flask for backend and bootstrap for frontend 
 Next we get a git url a docker hub url where the image has been pushed and a public ip address of the ec2 instance
 
-sudo docker run -it --name new_cont0 -p 5000:5000 -e AWS_ACCESS_KEY_ID=AKIA4DWVZTGTXUUKFG4I -e AWS_SECRET_ACCESS_KEY=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 -e AWS_DEFAULT_REGION=us-east-1 rashig00/sdk:7.0
+sudo docker run -it --name new_cont0 -p 5000:5000 -e AWS_ACCESS_KEY_ID="" -e AWS_SECRET_ACCESS_KEY="" -e AWS_DEFAULT_REGION=us-east-1 rashig00/sdk:7.0
